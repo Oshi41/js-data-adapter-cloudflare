@@ -18,6 +18,13 @@
   ],
   "author": "oshi41",
   "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oshi41/js-data-adapter-cloudflare.git"
+  },
   "description": "JS-Data adapter for D1 cloudflare connection",
   "dependencies": {
     "js-data": "^3.0.11",
