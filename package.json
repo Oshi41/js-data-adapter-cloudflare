@@ -1,0 +1,30 @@
+{
+  "name": "js-data-adapter-cloudflare",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "types": "types.d.ts",
+  "scripts": {
+    "test": "node --test index.test.js",
+    "test:watch": "node --test --watch index.test.js"
+  },
+  "keywords": [
+    "js-data",
+    "adapter",
+    "cloudflare",
+    "d1",
+    "database",
+    "sqlite"
+  ],
+  "author": "oshi41",
+  "license": "ISC",
+  "description": "JS-Data adapter for D1 cloudflare connection",
+  "dependencies": {
+    "js-data": "^3.0.11",
+    "js-data-adapter": "^1.0.1",
+    "knex": "^3.1.0"
+  },
+  "devDependencies": {
+    "better-sqlite3": "^12.6.2"
+  }
+}
